@@ -1,0 +1,15 @@
+--Hydra 
+*npm install hydra-express --save
+*npm install -g hydra-cli
+*hydra-cli
+-config
+*hydra-cli config local <nombre>
+*hydra-cli config list
+-funciones
+*hydra-cli health
+*hydra-cli rest hello-service:[<request>]/
+*hydra-cli routes
+
+-yeohydra
+*npm install -g yo generator-fwsp-hydra
+*yo fwsp-hydra
